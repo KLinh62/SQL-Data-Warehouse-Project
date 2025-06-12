@@ -41,6 +41,4 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 ## 🌟 About Me
 
 Hi there! I'm **Linh Nguyen**, an Supply Chain professional who is passonate about data.
-Speical thanks to DatawithBaraa for the guidance throughout this project!
-
  
