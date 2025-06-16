@@ -12,7 +12,7 @@ The Gold Layer is the business-level data representation, structured to support 
 - **Columns**:
 
 | Column Name     | Data Type      | Description                                                                 |
-|------------------|----------------|--------------------------------------------------------------------------------|
+|------------------|----------------|----------------------------------------------------------------------------|
 | `customer_key`   | INT            | Surrogate key uniquely identifying each customer record in the dimension table. |
 | `customer_id`    | INT            | Unique numerical identifier assigned to each customer.                     |
 | `customer_number`| NVARCHAR(50)   | Alphanumeric identifier representing the customer, used for tracking and referencing. |
@@ -32,7 +32,7 @@ The Gold Layer is the business-level data representation, structured to support 
 - **Columns**:
 
 | Column Name           | Data Type      | Description                                                                 |
-|------------------------|----------------|--------------------------------------------------------------------------------|
+|------------------------|----------------|----------------------------------------------------------------------------|
 | `product_key`          | INT            | Surrogate key uniquely identifying each product record in the product dimension table. |
 | `product_id`           | INT            | A unique identifier assigned to the product for internal tracking and referencing. |
 | `product_number`       | NVARCHAR(50)   | A structured alphanumeric code representing the product, often used for categorization or inventory. |
@@ -53,8 +53,8 @@ The Gold Layer is the business-level data representation, structured to support 
 - **Columns**:
 
 | Column Name     | Data Type     | Description                                                                 |
-|------------------|----------------|--------------------------------------------------------------------------------|
-| `order_number`   | NVARCHAR(50)   | A unique alphanumeric identifier for each sales order (e.g., 'SO54496').   |
+|------------------|----------------|---------------------------------------------------------------------------|
+| `order_number`   | NVARCHAR(50)   | A unique alphanumeric identifier for each sales order (e.g., `SO54496`).   |
 | `product_key`    | INT            | Surrogate key linking the order to the product dimension table.            |
 | `customer_key`   | INT            | Surrogate key linking the order to the customer dimension table.           |
 | `order_date`     | DATE           | The date when the order was placed.                                        |
