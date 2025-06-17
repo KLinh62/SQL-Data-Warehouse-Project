@@ -4,6 +4,10 @@
     * [ ] Technical Columns
 3.  [ ] Stored Procedure
 
+1.  [Column Naming Conventions](#column-naming-conventions)
+    * [Surrogate Keys](#surrogate-keys)
+    * [Technical Columns](#technical-columns)
+2.  [Stored Procedure](#stored-procedure)
 ---
 
 ## General Principles
