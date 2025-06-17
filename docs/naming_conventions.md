@@ -1,13 +1,22 @@
-1.  [ ] Gold Rules
-2.  [ ] Column Naming Conventions
-    * [ ] Surrogate Keys
-    * [ ] Technical Columns
-3.  [ ] Stored Procedure
+# Naming Conventions
 
-1.  [Column Naming Conventions](#column-naming-conventions)
+## Overview
+
+This Markdown file details comprehensive naming conventions for tables, columns, and stored procedures across different data layers (Bronze, Silver, Gold). 
+It provides specific rules, patterns, and examples to ensure consistency and clarity in data system design.
+
+---
+## Table of Contents
+1.  [General Principles](#general-principles)
+2.  [Table Naming Conventions](#table-naming-conventions)
+    * [Bronze Rules](#bronze-rules)
+    * [Silver Rules](#silver-rules)
+    * [Gold Rules](#gold-rules)
+3.  [Column Naming Conventions](#column-naming-conventions)
     * [Surrogate Keys](#surrogate-keys)
     * [Technical Columns](#technical-columns)
-2.  [Stored Procedure](#stored-procedure)
+4.  [Stored Procedure](#stored-procedure)
+
 ---
 
 ## General Principles
