@@ -2,8 +2,8 @@
 
 ## Overview
 
-This document details comprehensive naming conventions for tables, columns, and stored procedures 
-across different data layers (Bronze, Silver, Gold). 
+This document outlines comprehensive naming conventions for schemas, tables, columns, views, stored procedures 
+and other objects across different data layers (Bronze, Silver, Gold). 
 It provides specific rules, patterns, and examples to ensure consistency and clarity in data warehouse design.
 
 ---
@@ -11,19 +11,19 @@ It provides specific rules, patterns, and examples to ensure consistency and cla
 ## Table of Contents
 1.  [General Principles](#general-principles)
 2.  [Table Naming Conventions](#table-naming-conventions)
-    * [Bronze Rules](#bronze-rules)
-    * [Silver Rules](#silver-rules)
-    * [Gold Rules](#gold-rules)
+    - [Bronze Rules](#bronze-rules)
+    - [Silver Rules](#silver-rules)
+    - [Gold Rules](#gold-rules)
 3.  [Column Naming Conventions](#column-naming-conventions)
-    * [Surrogate Keys](#surrogate-keys)
-    * [Technical Columns](#technical-columns)
+    - [Surrogate Keys](#surrogate-keys)
+    - [Technical Columns](#technical-columns)
 4.  [Stored Procedure](#stored-procedure)
 
 ---
 
 ## General Principles
 
-* **Naming Conventions:** Use snake_case, with lowercase letters and underscores (\_\_) to separate words.
+* **Naming Conventions:** Use snake_case, with lowercase letters and underscores (`_`) to separate words.
 * **Language:** Use English for all names.
 * **Avoid Reserved Words:** Do not use SQL reserved words as object names.
 
