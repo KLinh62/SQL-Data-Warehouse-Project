@@ -6,8 +6,6 @@ This document outlines comprehensive naming conventions for schemas, tables, col
 and other objects across different data layers (Bronze, Silver, Gold). 
 It provides specific rules, patterns, and examples to ensure consistency and clarity in data warehouse design.
 
----
-
 ## Table of Contents
 1.  [General Principles](#general-principles)
 2.  [Table Naming Conventions](#table-naming-conventions)
