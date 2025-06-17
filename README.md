@@ -43,7 +43,6 @@ Everything is for Free!
 * [Notion Project Steps](https://www.notion.so/My-Data-Warehouse-Project-20fb404cdc59804987b3fa411d94675c): Access to All Project Phases and Tasks.
 
 ---
-
 ## 🚀 Project Requirements 
 
 ### Building the Data Warehouse (Data Engineering)
@@ -59,6 +58,15 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 ---
+### BI: Analytics & Reporting (Data Analytics)
+
+#### Objective
+Develop SQL-based analytics to deliver detailed insights into:  
+- **Customer Behavior**  
+- **Product Performance**  
+- **Sales Trends**
+
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 ## 📂 Repository Structure
 ```
@@ -88,18 +96,6 @@ data-warehouse-project/
 ├── .gitignore                          # Files and directories to be ignored by Git
 └── requirements.txt                    # Dependencies and requirements for the project
 ```
-
----
-
-### BI: Analytics & Reporting (Data Analytics)
-
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:  
-- **Customer Behavior**  
-- **Product Performance**  
-- **Sales Trends**
-
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 ---
 
