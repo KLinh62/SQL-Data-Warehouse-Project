@@ -40,7 +40,6 @@ Everything is for Free!
 * [Datasets](https://github.com/KLinh62/SQL-Data-Warehouse-Project/tree/ff499613f4374f65426a2d3d977742d98579db78/datasets): Access to the project dataset (.csv files).
 * [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/ssms/install/install?view=sql-server-ver16): GUI for managing and interacting with databases.
 * [DrawIO](https://www.drawio.com/): Design data architecture, models, flows, and diagrams.
-* [Notion](https://www.notion.com/): All-in-one tool for project management and organization.
 * [Notion Project Steps](https://www.notion.so/My-Data-Warehouse-Project-20fb404cdc59804987b3fa411d94675c): Access to All Project Phases and Tasks.
 
 ---
