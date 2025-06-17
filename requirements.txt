@@ -1,0 +1,35 @@
+# Python Dependencies for SQL Data Warehouse and Analytics Project
+
+# --- Core Data Manipulation and Analysis ---
+# Used for reading/writing CSV files, general data processing, and transformations.
+pandas # Recommended for data handling from CSV files
+
+# --- SQL Server Database Connectivity ---
+# pyodbc: A Python extension for connecting to ODBC-compliant databases, including SQL Server.
+# Note: We will also need the appropriate Microsoft ODBC Driver for SQL Server installed on our system.
+pyodbc # For connecting to SQL Server
+
+# --- Environment Variable Management ---
+# Used for loading configuration or sensitive data (like database credentials) from a .env file,
+# which is common in the project as indicated by .gitignore.
+python-dotenv
+
+# --- Optional: SQLAlchemy - Python SQL Toolkit and Object Relational Mapper ---
+# If we plan to use an ORM or a more abstract way to interact with our SQL Server database,
+# SQLAlchemy can provide this layer, often using pyodbc as its underlying driver.
+# Uncomment the line below if intend to use SQLAlchemy:
+# SQLAlchemy
+
+# --- Optional: Other handy tools that might be added later ---
+# openpyxl: For reading or writing directly to Excel (.xlsx) files.
+# openpyxl
+#
+# dask: For handling really large datasets that don't fit into memory, or for parallel computing.
+# dask
+#
+# prefect / apache-airflow: For building more complex, scheduled ETL workflows,
+#                          these are popular choices for orchestration.
+#                          (Often installed in separate environments)
+# prefect
+# apache-airflow
+
