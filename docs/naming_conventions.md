@@ -5,7 +5,6 @@
 This Markdown file details comprehensive naming conventions for tables, columns, and stored procedures across different data layers (Bronze, Silver, Gold). 
 It provides specific rules, patterns, and examples to ensure consistency and clarity in data system design.
 
----
 ## Table of Contents
 1.  [General Principles](#general-principles)
 2.  [Table Naming Conventions](#table-naming-conventions)
@@ -24,8 +23,6 @@ It provides specific rules, patterns, and examples to ensure consistency and cla
 * **Naming Conventions:** Use snake_case, with lowercase letters and underscores (\_\_) to separate words.
 * **Language:** Use English for all names.
 * **Avoid Reserved Words:** Do not use SQL reserved words as object names.
-
----
 
 ## Table Naming Conventions
 
