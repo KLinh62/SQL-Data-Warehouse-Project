@@ -5,8 +5,35 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 Presented as a portfolio project that highlights industry best practices in data engineering and analytics.
 
 ---
+## 📁 Project Overview:
 
-## 🚀 Project Requirements
+This project involves:
+1.  **Data Architecture:** Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
+2.  **ETL Pipelines:** Extracting, transforming, and loading data from source systems into the warehouse.
+3.  **Data Modeling:** Developing fact and dimension tables optimized for analytical queries.
+4.  **Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.
+
+✅ This portfolio project showcases expertise in:
+* SQL Development
+* Data Architect
+* Data Engineering
+* ETL Pipeline Developer
+* Data Modeling
+* Data Analytics
+
+---
+## ⚙️ Important Links & Tools: 
+
+Everything is for Free!
+
+* [Datasets](https://github.com/KLinh62/SQL-Data-Warehouse-Project/tree/ff499613f4374f65426a2d3d977742d98579db78/datasets): Access to the project dataset (.csv files).
+* [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/ssms/install/install?view=sql-server-ver16): GUI for managing and interacting with databases.
+* [DrawIO](https://www.drawio.com/): Design data architecture, models, flows, and diagrams.
+* [Notion](https://www.notion.com/): All-in-one tool for project management and organization.
+* [Notion Project Steps](https://example.com/notion-steps): Access to All Project Phases and Tasks.
+
+---
+## 🚀 Project Requirements 
 
 ### Building the Data Warehouse (Data Engineering)
 
