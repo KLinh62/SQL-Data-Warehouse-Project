@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Markdown file details comprehensive naming conventions for tables, columns, and stored procedures 
+This document details comprehensive naming conventions for tables, columns, and stored procedures 
 across different data layers (Bronze, Silver, Gold). 
 It provides specific rules, patterns, and examples to ensure consistency and clarity in data warehouse design.
 
