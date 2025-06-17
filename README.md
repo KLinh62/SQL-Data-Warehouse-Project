@@ -35,7 +35,7 @@ This project involves:
 ---
 ## ⚙️ Important Links & Tools: 
 
-Everything is for Free!
+Below are the tools used for the project.
 
 * [Datasets](https://github.com/KLinh62/SQL-Data-Warehouse-Project/tree/ff499613f4374f65426a2d3d977742d98579db78/datasets): Access to the project dataset (.csv files).
 * [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/ssms/install/install?view=sql-server-ver16): GUI for managing and interacting with databases.
