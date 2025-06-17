@@ -2,8 +2,11 @@
 
 ## Overview
 
-This Markdown file details comprehensive naming conventions for tables, columns, and stored procedures across different data layers (Bronze, Silver, Gold). 
-It provides specific rules, patterns, and examples to ensure consistency and clarity in data system design.
+This Markdown file details comprehensive naming conventions for tables, columns, and stored procedures 
+across different data layers (Bronze, Silver, Gold). 
+It provides specific rules, patterns, and examples to ensure consistency and clarity in data warehouse design.
+
+---
 
 ## Table of Contents
 1.  [General Principles](#general-principles)
@@ -23,6 +26,8 @@ It provides specific rules, patterns, and examples to ensure consistency and cla
 * **Naming Conventions:** Use snake_case, with lowercase letters and underscores (\_\_) to separate words.
 * **Language:** Use English for all names.
 * **Avoid Reserved Words:** Do not use SQL reserved words as object names.
+
+---
 
 ## Table Naming Conventions
 
@@ -60,6 +65,8 @@ It provides specific rules, patterns, and examples to ensure consistency and cla
 | `fact_` | Fact table       | `fact_sales`                        |
 | `agg_`  | Aggregated table | `agg_customers`, `agg_sales_monthly` |
 
+---
+
 ## Column Naming Conventions
 
 ### Surrogate Keys
@@ -77,6 +84,8 @@ It provides specific rules, patterns, and examples to ensure consistency and cla
     * `dwh__`: Prefix exclusively for system-generated metadata.
     * `<column_name>`: Descriptive name indicating the column's purpose.
     * Example: `dwh_load_date` $\rightarrow$ System-generated column used to store the date when the record was loaded.
+
+---
  
 ## Stored Procedure
 
