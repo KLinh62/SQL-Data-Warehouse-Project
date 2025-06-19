@@ -37,7 +37,7 @@ This project involves:
 
 Below are the links and tools used for the project.
 
-* [Datasets](https://github.com/KLinh62/SQL-Data-Warehouse-Project/tree/ff499613f4374f65426a2d3d977742d98579db78/datasets): Access to the project dataset (.csv files).
+* [Datasets](https://github.com/KLinh62/SQL-Data-Warehouse-Project/tree/e01f1d35b14873cfb305d611b07929cb80b6e31a/datasets): Access to the project dataset (.csv files).
 * [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/ssms/install/install?view=sql-server-ver16): GUI for managing and interacting with databases.
 * [DrawIO](https://www.drawio.com/): Design data architecture, models, flows, and diagrams.
 * [Notion Project Steps](https://www.notion.so/My-Data-Warehouse-Project-20fb404cdc59804987b3fa411d94675c): Access to All Project Phases and Tasks.
