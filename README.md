@@ -81,38 +81,6 @@ Avg Order Value = [Total Sales] / DISTINCTCOUNT(fact_sales[order_id])
 Customer Count = DISTINCTCOUNT(dim_customers[customer_id])
 ```
 ---
-#### 📊 Power BI Dashboard: Build Procedures
-
-**🔄 Step 1: Data Import**
-
-- Export key SQL views to `.csv` OR connect Power BI to SQL database
-- Recommended Views:
-  - `vw_sales_by_month`
-  - `vw_top_customers`
-  - `vw_product_performance`
-  - `vw_orders_by_segment`
-  - `vw_channel_trends`
-
-**🗂 Step 2: Data Model Setup**
-
-- Ensure relationships:
-  - `Date[Date]` → `Orders[OrderDate]`
-  - `CustomerID`, `ProductID` as foreign keys
-- Create Calendar Table if not imported
-
-**📐 Step 3: Measure Definitions**
-
-Create DAX KPIs like:
-
-```DAX
-Total Revenue = SUM(Orders[Revenue])
-Avg Order Value = [Total Revenue] / COUNTROWS(Orders)
-Return Rate = DIVIDE(SUM(Orders[IsReturn]), COUNTROWS(Orders))
-```
-
-More measures can be derived using SQL views or custom DAX logic.
-
----
 
 ### 📊 Dashboard Design Layout
 
@@ -143,6 +111,39 @@ More measures can be derived using SQL views or custom DAX logic.
 - Running Total Sales (Area chart: Cumulative monthly revenue)
 - Average Order Value (AOV)
 - Revenue vs. Quantity Correlation
+
+---
+
+#### 📊 Power BI Dashboard: Build Procedures
+
+**🔄 Step 1: Data Import**
+
+- Export key SQL views to `.csv` OR connect Power BI to SQL database
+- Recommended Views:
+  - `vw_sales_by_month`
+  - `vw_top_customers`
+  - `vw_product_performance`
+  - `vw_orders_by_segment`
+  - `vw_channel_trends`
+
+**🗂 Step 2: Data Model Setup**
+
+- Ensure relationships:
+  - `Date[Date]` → `Orders[OrderDate]`
+  - `CustomerID`, `ProductID` as foreign keys
+- Create Calendar Table if not imported
+
+**📐 Step 3: Measure Definitions**
+
+Create DAX KPIs like:
+
+```DAX
+Total Revenue = SUM(Orders[Revenue])
+Avg Order Value = [Total Revenue] / COUNTROWS(Orders)
+Return Rate = DIVIDE(SUM(Orders[IsReturn]), COUNTROWS(Orders))
+```
+
+More measures can be derived using SQL views or custom DAX logic.
 
 ---
 
